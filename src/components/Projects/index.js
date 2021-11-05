@@ -7,16 +7,16 @@ const Projects = () => {
         <p id ="projects">Projects</p>
 
         <article>
-            <section class="sec">
+            <section className="sec">
                 <h2>PONG</h2>
-                <div class="project">
+                <div className="project">
                     <br></br>
                     <p>A project is an individual or collaborative enterprise that is carefully planned and researched about by students. At schools, educational institutes and universities, a project is a research assignment - given to a student - which generally requires a larger amount of effort and more independent work than that involved in a normal essay assignment. It requires students to undertake their own fact-finding and analysis, either from library/internet research or from gathering data empirically. The written report that comes from the project is usually in the form of a dissertation, which will contain sections on the project's inception, analysis, findings and conclusions.</p>
                 </div>
             </section>
-            <section class="sec">
+            <section className="sec">
                 <h2>Kroy</h2>
-                <div class="project">
+                <div className="project">
                     <br></br>
                     <p>Developed a game for a software engineering group project module in the 2nd year by Java where the user has to destroy aliens spread throughout York at various landmarks, using fire engines.</p>
                     <br></br>
@@ -33,9 +33,9 @@ const Projects = () => {
                     </ul>
                 </div>
         </section>
-            <section class="sec">
+            <section className="sec">
                 <h2>TravelShare</h2>
-                <div class="project">
+                <div className="project">
                     <br></br>
                     <p>TravelShare is an anonymous blogging website that allows users to make posts about their travel experiences.</p>
                     <br></br>
@@ -46,15 +46,15 @@ const Projects = () => {
                     </ul>
                     <br></br>
                     <form action="https://bagels-journal-project.netlify.app/client/html/mainpage">
-                        <button class = "button" id="button1" type="submit">
+                        <button className = "button" id="button1" type="submit">
                             Visit website
                         </button>
                     </form>
                 </div>   
             </section>        
-            <section class="sec">
+            <section className="sec">
                 <h2>Solving MAPF Problem with SAT solver</h2>
-                <div class="project">
+                <div className="project">
                     <br></br>
                     <p>As my final year project I wrote a program for multiple robots to visit some predefined patients in a one-floor hospital in the minimum possible time without exceeding thier energy.</p>
                     <p>This project required:</p>
@@ -69,9 +69,9 @@ const Projects = () => {
                     </ul>
                 </div>
             </section>
-            <section class="sec">
+            <section className="sec">
                 <h2>Trabbit</h2>
-                <div class="project">
+                <div className="project">
                     <br></br>
                     <p>Designed a habit tracker web app with the following functionalities:</p>
                     <br></br>
@@ -83,15 +83,15 @@ const Projects = () => {
                     </ul>
                     <br></br>
                     <form action="https://trabbit.netlify.app">
-                        <button class = "button" id="button2" type="submit">
+                        <button className = "button" id="button2" type="submit">
                             Visit website
                         </button>
                     </form>
                 </div>
             </section>
-            <section class="sec">
+            <section className="sec">
                 <h2>project6</h2>
-                <div class="project">
+                <div className="project">
                     <br></br>
                     <p>A project is an individual or collaborative enterprise that is carefully planned and researched about by students. At schools, educational institutes and universities, a project is a research assignment - given to a student - which generally requires a larger amount of effort and more independent work than that involved in a normal essay assignment. It requires students to undertake their own fact-finding and analysis, either from library/internet research or from gathering data empirically. The written report that comes from the project is usually in the form of a dissertation, which will contain sections on the project's inception, analysis, findings and conclusions.</p>
                 </div>
