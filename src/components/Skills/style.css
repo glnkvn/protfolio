@@ -1,0 +1,78 @@
+:root{
+    --orange:rgb(201, 116, 5);
+    --dark-brown:rgb(139, 107, 46);
+    --dark-orange:rgb(221, 168, 54);
+    --dark-blue:rgb(5, 45, 119);
+    --blue:rgb(7, 49, 126);
+    --blanchedalmond:blanchedalmond;
+    --light-orange:rgb(245, 195, 88);
+    --dark-crimson :rgb(43, 33, 33);
+    --stripsheight: 12vh;
+   --light-blue: rgb(183, 224, 240) ; 
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Jazz LET, fantasy;
+}
+
+
+#thechnical_skills{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    background-color: var(--orange);
+    border-radius: 60px;
+    margin:60px 120px 60px 120px;
+    height: 80px;
+    padding-top: 20px;
+}
+
+#skills {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(5,auto);
+    grid-template-rows: auto;
+}
+
+.iconify { 
+    margin: 18px;
+    width: 120px; 
+    height: 120px;
+}
+
+.my-skills {
+    position: relative;
+    width: 180px;
+    height: 180px;
+}
+
+.skill-name {
+    visibility: hidden;
+    font-size: 18px;
+    font-weight: 300;
+    position: absolute;
+    text-align: center;
+    color:var(--dark-crimson);
+    margin-bottom: 10px;
+    bottom: 4px;
+}
+
+.my-skills:hover {
+    background: var(--orange);
+    width: 187px;
+    height: 187px;
+    transition: 0.5s ease;
+}
+
+
+.my-skills:hover .skill-name {
+    visibility: visible;
+    padding: 25px 35px;
+    width: 175px;
+    height: 25px;
+    transition: 0.5s ease;
+}
