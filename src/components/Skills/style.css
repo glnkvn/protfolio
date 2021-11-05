@@ -1,14 +1,6 @@
 :root{
     --orange:rgb(201, 116, 5);
-    --dark-brown:rgb(139, 107, 46);
-    --dark-orange:rgb(221, 168, 54);
-    --dark-blue:rgb(5, 45, 119);
-    --blue:rgb(7, 49, 126);
-    --blanchedalmond:blanchedalmond;
-    --light-orange:rgb(245, 195, 88);
     --dark-crimson :rgb(43, 33, 33);
-    --stripsheight: 12vh;
-   --light-blue: rgb(183, 224, 240) ; 
 }
 
 *{
