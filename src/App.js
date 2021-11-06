@@ -1,11 +1,11 @@
 import React from 'react';
-import { Footer } from './layout';
+import { Footer , Header } from './layout';
 import { Skills, Projects, About } from './components';
 
 function App() {
   return (
     <main>
-      <h1>Wellcome to my portfolio!</h1>
+      <Header />
       <About />
       <Skills />
       <Projects />

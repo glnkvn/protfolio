@@ -1,0 +1,92 @@
+header{
+    background-color:var(--light-blue);
+    height: 30vh;
+    display: flex;
+    border-bottom: 5px solid var(--blue);
+}
+
+h1{
+    border-top: 5px solid var(--blue);
+    color:  var(--dark-crimson);
+    font-family: Jazz LET, fantasy;
+    font-size: 70px;
+    font-weight: 700;
+    padding-top: 10vh;
+    text-align: center;
+    width: 50%;
+    display:inline-block;
+}
+
+#about{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    background-color: var(--orange);
+    border-radius: 60px;
+    margin:30px 120px 30px 120px;
+    height: 80px;
+    padding-top: 20px;
+}
+
+section{
+    right: 0;   
+    display: block;  
+}
+
+.links{ 
+    right: 0;
+    height: calc(29vh / 4);
+    background-color:var(--dark-blue);
+    font-weight: 800;
+}
+
+#myPhoto{
+    height:calc(100vh - 10px);
+    display: inline-block;
+    border: 5px solid var(--blue);
+
+}
+
+header #myPhoto{
+    width: 19vw;
+    height: 30vh;
+    display: inline-block;
+}
+
+header h1{
+    width:61vw; 
+    /* display: flex; */
+}
+
+.topnav {
+    border-top: 5px solid var(--blue);
+}
+
+header .topnav {
+    display:inline-block;
+    padding: 0px;
+    margin: 0;
+    overflow: hidden;
+    width: 20vw;
+    right: 0; 
+    top: 0;  
+    background-color: var(--blue);
+}
+
+
+.topnav a {
+    right: 0;   
+    display: block;
+    color:var(--orange);
+    text-align: center;
+    padding: 15px 15px;
+    font-size: 25px;
+    width: 100%;
+    text-decoration: none;
+    overflow: hidden;
+    justify-content: center; 
+}
+
+.topnav a:hover {
+    background-color:var(--light-orange);
+}
