@@ -96,3 +96,60 @@ p{
 #lastInfoparaph{
     padding-bottom: 15px;
 }
+
+
+@media only screen and (max-width: 900px){
+
+
+    #firstInfo{ 
+        margin: 40px 120px 40px 120px;
+    }
+
+    #about{
+        margin:30px 100px 30px 100px;
+    }
+
+}
+
+
+@media only screen and (max-width: 780px){
+
+
+    #firstInfo{ 
+        margin: 30px 70px 30px 70px;
+    }
+
+    #about{
+        margin:30px 88px 30px 88px;
+    }
+
+    
+}
+
+
+@media only screen and (max-width: 540px){
+
+    #firstInfo{ 
+        margin: 30px 30px 30px 30px;
+    }
+
+    #about{
+        margin:30px 50px 30px 50px;
+    }
+
+}
+
+
+@media only screen and (max-width: 360px){
+
+    #firstInfo{ 
+        margin: 30px 15px 30px 15px;
+    }
+
+
+    #about{
+        margin:30px 22px 30px 22px;
+    }
+
+}
+
